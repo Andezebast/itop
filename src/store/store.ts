@@ -1,5 +1,5 @@
 import {combineReducers, configureStore, getDefaultMiddleware} from "@reduxjs/toolkit";
-import {сurrenciesSaga} from "./currenciesSlice";
+import {сurrenciesSaga} from "./currenciesSaga";
 import createSagaMiddleware from 'redux-saga';
 import courseSlice from './currenciesSlice';
 
