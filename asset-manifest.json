@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/itop/static/css/main.7cd4efab.css",
+    "main.js": "/itop/static/js/main.32ce75e0.js",
+    "index.html": "/itop/index.html",
+    "main.7cd4efab.css.map": "/itop/static/css/main.7cd4efab.css.map",
+    "main.32ce75e0.js.map": "/itop/static/js/main.32ce75e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cd4efab.css",
+    "static/js/main.32ce75e0.js"
+  ]
+}
