@@ -11,13 +11,12 @@ const initialState: ICurrenciesState = {
 }
 
 export const сurrenciesSlice = createSlice({
-    name: 'сurrencies',
+    name: 'currencies',
     initialState,
     reducers: {
         fetchСurrencies(){},
         getСurrencies(state, action: PayloadAction<ICurrencies[]>){
             state.сurrencies = action.payload;
-            console.log(action.payload, 'action.payload')
         }
     }
 })

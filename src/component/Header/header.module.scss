@@ -1,0 +1,43 @@
+.header{
+    border-bottom: 3px solid #ae3143;
+    padding: 10px 20px;
+    .headerContainer{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .headerLogo{
+            max-width: 150px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .headerCurrencies{
+            display: flex;
+            .headerCurrency{
+              display: flex;
+              &:first-child{
+                margin-right: 10px;
+                padding-right: 10px;
+                border-right: 2px solid #ae3143;
+              }
+              p{
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                padding-right: 10px;
+                &:last-child{
+                  padding-right: 0;
+                }
+                span{
+                  padding-top: 5px;
+                  color: #ae3143;
+                }
+              }
+            }
+        }
+    }
+}
