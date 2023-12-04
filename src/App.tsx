@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Header from "./component/Header/Header";
 import Converter from "./component/Converter/Converter";
 

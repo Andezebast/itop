@@ -16,16 +16,16 @@ const Header: FC = () => {
           {currencies.map((currency, index) => (
             <div key={index} className={styles.headerCurrency}>
               <p>
-                <span>Курс </span>
+                <span>Course </span>
                 {currency.ccy}/{currency.base_ccy}:
               </p>
               <p>
-                <span>Покупка</span>
-                {currency.buy}
+                <span>Buy</span>
+                {parseFloat(currency.buy).toFixed(2)}
               </p>
               <p>
-                <span>Продажа</span>
-                {currency.sale}
+                <span>Sale</span>
+                {parseFloat(currency.sale).toFixed(2)}
               </p>
             </div>
           ))}

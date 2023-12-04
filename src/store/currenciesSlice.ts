@@ -24,5 +24,3 @@ export const сurrenciesSlice = createSlice({
 export const {fetchСurrencies, getСurrencies} = сurrenciesSlice.actions;
 
 export default сurrenciesSlice.reducer;
-
-
